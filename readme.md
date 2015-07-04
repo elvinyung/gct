@@ -21,7 +21,7 @@ Include the ticket name somewhere in your branch name. The script should accept 
 * `THING_6666...`
 * lowercase variations of the above
 
-and format the ticket name to THING-6666.
+and format the ticket name to `THING-6666`. The commit message will be formatted to `[THING_6666] actual commit message here`.
 
 Commit with `gct [COMMIT_MSG]`.
 
