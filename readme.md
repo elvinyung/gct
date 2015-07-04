@@ -24,3 +24,5 @@ Include the ticket name somewhere in your branch name. The script should accept 
 and format the ticket name to THING-6666.
 
 Commit with `gct [COMMIT_MSG]`.
+
+If you formatted your branch incorrectly, `gct` should still commit with the entire message.
