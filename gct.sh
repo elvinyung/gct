@@ -1,5 +1,7 @@
 branch_name=$(git branch | sed -n '/\* /s///p')
 commit_msg=$1
+
+# check for -m flag
 if [ $commit_msg == '-m' ]; then
   commit_msg=$2
 fi
