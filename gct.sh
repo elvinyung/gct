@@ -20,7 +20,6 @@ formatted_ticket="[$ticket_code-$ticket_number]"
 # make the actual commit
 if [ $ticket_name == $branch_name ]; then
   echo "Can't find ticket name! Committing normally."
-  git commit -m "$commit_msg"
-  exit 0
+  formatted_ticket=$commit_msg
 fi
 git commit -m "$formatted_ticket $commit_msg"
